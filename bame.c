@@ -10,7 +10,7 @@
 #include <unistd.h>
 
 #define MAX_ROWS 15
-#define LINES_FOR_LEVEL_UP 10
+#define LINES_FOR_LEVEL_UP 18
 #define INIT_DELAY_MS 1500
 #define LEVEL_DELAY_DECREASE_MS 100
 
