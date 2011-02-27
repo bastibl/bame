@@ -16,7 +16,7 @@ ncurses
 Usage:
 You can set the bits of the byte you have to create with:
 'a' 's' 'd' 'f' 'j' 'k' 'l' ';'
-...so use english keyboard settings.
+...so use english keyboard layout.
 You can stop current game with 'q'. Then 'q' exits game,
 <space> starts new game.
 
