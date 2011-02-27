@@ -1,0 +1,34 @@
+This is 'bame', a binary game for the console.
+It is inspired by CISCO's Binary Game 
+(http://forums.cisco.com/CertCom/game/binary_game_page.htm).
+
+However, you __dont't__ have to:
+  - input decimal numbers
+  - listen to strange music
+  - use flash!!!
+
+Build with:
+make
+
+Requirements:
+ncurses
+
+Usage:
+You can set the bits of the byte you have to create with:
+'a' 's' 'd' 'f' 'j' 'k' 'l' ';'
+...so use english keyboard settings.
+You can stop current game with 'q'. Then 'q' exits game,
+<space> starts new game.
+
+Have fun!
+Basti
+
+
+Remark:
+This is just a basic implementations with only few
+lines of code. Feel free to improve and contribute.
+
+TODO:
+Use the defined mutex. I think at least access to 
+the ncurses window should be syncronised. Perhaps 
+also some global variable need syncronisation too.
