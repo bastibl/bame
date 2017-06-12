@@ -95,7 +95,8 @@ init_curses() {
 	noecho();	// don't echo keystrokes
 	cbreak();	// raw keyboard input
 	start_color();
-	init_pair(1, COLOR_WHITE, COLOR_BLACK);
+	use_default_colors();
+	init_pair(1, COLOR_WHITE, -1);
 	init_pair(2, COLOR_WHITE, COLOR_RED);
 	attron(COLOR_PAIR(1));
 	mvprintw(0,0,"..:: B-A-M-E ::..");
